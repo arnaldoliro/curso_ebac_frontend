@@ -85,3 +85,15 @@ section h2{
 #economy .articles article a{
     background-color: #ff9f1a;
 }
+#entreteriment{
+    background-color: pink;
+}
+#entreteriment .articles article a{
+    background-color: red;
+}
+#tecnology{
+    background-color: rgba(0, 0, 255, 0.329);
+}
+#tecnology .articles article a{
+    background-color: blue;
+}
