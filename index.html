@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,13 +14,11 @@
         <h1>Lista de tarefas</h1>
     </header>
     <form>
-        <input type="text" placeholder="Digite a tarefa">
-        <button type="submit">Adicionar</button>
+        <input id="form-task" type="text" placeholder="Digite a tarefa">
+        <button id="form-btn" type="submit">Adicionar</button>
     </form>
-    <ul>
-        <li>
-            Fazer uma lista
-        </li>
-    </ul>
+    <ul id="my-list"></ul>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
