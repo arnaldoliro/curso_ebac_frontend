@@ -21,13 +21,15 @@ $(document).ready(function(){
             cpf:{
                 required: true
             },
+            endereco: {
+                required: true
+            },
             cep: {
                 required: true
             }
         },
         messages: {
             nome: "Por favor, Insira seu nome"
-            
         }
     })
 
